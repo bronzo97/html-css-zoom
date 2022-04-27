@@ -8,12 +8,82 @@
 
 /* ----- HEADER ----- */
 
+header {
+    background-color: #000;
+}
 
+header .col {
+    display: flex;
+    justify-content: end;
+
+}
+
+.header-button {
+    background-color: #4A4A4A;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.header-button i {
+    margin: 2px;
+}
 
 /* ----- MAIN ----- */
 
+main {
+    background-color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    gap: .2rem;
+}
+
+.account-card {
+    position: relative;
+    width: calc((100% / 7) - 0.2rem);
+    height: calc((100vh / 5) - 1rem);
+}
+
+.account-details {
+    background-color: #4A4A4A;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.microphone, .name {
+    display: inline-block;
+}
+
+.account-img, .account-img img {
+    height: 100%;
+    width: 100%;
+}
 
 
 /* ----- FOOTER ----- */
 
+.col {
+    display: flex;
+}
 
+.btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
+}
+
+.btn .btn-left {
+    margin-right: 0.5rem;
+}
