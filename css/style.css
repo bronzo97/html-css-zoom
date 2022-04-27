@@ -54,7 +54,7 @@ main {
 .account-card {
     position: relative;
     width: calc((100% / 7) - 0.2rem);
-    height: calc((100vh / 5) - 1rem);
+    height: calc((80vh / 5));
 }
 
 .account-details {
